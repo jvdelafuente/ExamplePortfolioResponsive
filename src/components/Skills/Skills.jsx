@@ -5,7 +5,7 @@ import git from '../../../assets/icons/Git.png'
 import css from '../../../assets/icons/CSS3.png'
 import html from '../../../assets/icons/HTML5.png'
 import mysql from '../../../assets/icons/mysql.png'
-import node from '../../../assets/icons/node.js.png'
+import node from '../../../assets/icons/nodejs.png'
 import js from '../../../assets/icons/javaScript.png'
 import npm from '../../../assets/icons/NPM.png'
 
