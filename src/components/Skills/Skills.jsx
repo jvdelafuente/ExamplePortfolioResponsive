@@ -1,12 +1,12 @@
 import '../newspaper/Newspaper.scss'
 
-import react from '../../../assets/icons/react.png'
+import react from '../../../assets/icons/React.png'
 import git from '../../../assets/icons/Git.png'
 import css from '../../../assets/icons/CSS3.png'
 import html from '../../../assets/icons/HTML5.png'
 import mysql from '../../../assets/icons/mysql.png'
 import node from '../../../assets/icons/nodejs.png'
-import js from '../../../assets/icons/javaScript.png'
+import js from '../../../assets/icons/JavaScript.png'
 import npm from '../../../assets/icons/NPM.png'
 
 import boostrap from '../../../assets/icons/Bootstrap.png'
