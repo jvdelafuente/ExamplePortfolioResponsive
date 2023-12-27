@@ -10,7 +10,7 @@ import js from '../../../assets/icons/JavaScript.png'
 import npm from '../../../assets/icons/NPM.png'
 
 import boostrap from '../../../assets/icons/Bootstrap.png'
-import types from '../../../assets/icons/Typescript.png'
+import types from '../../../assets/icons/TypeScript.png'
 import astro from '../../../assets/icons/Astro.png'
 import sass from '../../../assets/icons/Sass.png'
 
