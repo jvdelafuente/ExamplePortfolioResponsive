@@ -1,0 +1,121 @@
+footer {
+  display: flex;
+  color: #ededed;
+  background-color: #1c1f33;
+  grid-column: 1 / 6;
+  margin: 0px;
+}
+footer h6{
+font: 800 24px/1 var(--font-sans-serif);
+}
+footer p{
+  font: 16px/1 "Playfair Display SC";
+}
+footer a {
+  font: 16px/1 "Playfair Display SC";
+  padding: 2%;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+justify-content: space-between;
+      display: flex;
+}
+.container2 button{
+  border: none;
+  background-color: transparent;
+
+}
+.contacticons{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 40px 15px 40px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ededed;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5
+}
+
+.site-footer hr.small {
+  margin: 20px 0
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px
+}
+
+.site-footer a {
+  color: #fbfbfb;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block
+}
+.footerIcon{
+  cursor: pointer;
+  width: 55px;
+  /* filter: grayscale(2); */
+  filter: brightness(0) invert(1);
+  border: none;
+  border-radius: 100%;
+}
+
+.footerIcon:hover {
+  filter: grayscale(0);
+}
+
+@media (max-width:991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px
+  }
+}
+
+@media (max-width:767px) {
+  .site-footer {
+    padding-bottom: 0
+  }
+
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center
+  }
+}
+
+
+
+@media (max-width:767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600
+  }
+    footer p {
+      font: 14px/1 "Playfair Display SC";
+      padding: 2%;
+    }
+  .contacticons{
+    justify-content: center;
+  }
+  .contacticons img{
+    width: 30px;
+    height: 30px;
+  }
+}

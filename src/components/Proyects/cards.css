@@ -1,0 +1,76 @@
+
+.proyectContainerBig{
+  grid-column: span 5;
+}
+.proyectContainerBig p{
+  margin-bottom: 20px;
+  /* margin: 0; */
+  padding: 0;
+}
+.proyectContainerBig h1{
+  margin-bottom: 50px;
+}
+.proyectContainerBig h2 {
+  border: none;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.proyectContainerBig img{
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  filter: grayscale(1);
+}
+.proyectContainerBig img:hover {
+  filter: grayscale(0);
+}
+.row button{
+  margin-top: 20px;
+  background: none;
+  border: 2px solid var(--black);
+  padding: 10px;
+  cursor: pointer;
+  font: 600 20px/1 var(--font-sans-serif);
+}
+.row button:hover{
+  background-color: var(--black);
+  color: white;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.row {
+margin: 0;
+padding: 10px;
+  border-left: 2px solid var(--black);
+  border-right: 2px solid var(--black);
+    /* border-top: 2px solid var(--black); */
+      /* border-bottom: 2px solid var(--black); */
+    /* outline: 3px solid var(--black); */
+    /* box-shadow: inset 0 0 0 1px var(--black) */
+}
+
+.row>li {
+  
+  display: inline-block;
+  width: 25%;
+  padding: 1em;
+border-bottom: 2px solid var(--black);
+border-top: 2px solid var(--black);
+  text-align: center;
+}
+
+@media all and (min-width:500px) and (max-width:899px) {
+
+  .row>li {
+    width: 50%;
+  }
+}
+
+@media all and (max-width:499px) {
+
+  .row>li {
+    width: 100%;
+  }
+}
